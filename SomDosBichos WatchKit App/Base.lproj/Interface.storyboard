@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SomDosBichos_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="left" image="logo" contentMode="scaleAspectFit" id="tJa-m5-5TT"/>
+                        <group width="1" alignment="left" id="Y7l-Yl-x6B">
+                            <items>
+                                <button width="60" height="60" alignment="center" backgroundImage="cao" id="CDF-RI-dwv">
+                                    <connections>
+                                        <action selector="cao" destination="AgC-eL-Hgc" id="0Js-r1-wQX"/>
+                                    </connections>
+                                </button>
+                                <button width="60" height="60" alignment="center" backgroundImage="gato" id="f66-rb-gua">
+                                    <connections>
+                                        <action selector="gato" destination="AgC-eL-Hgc" id="2VL-S4-tAI"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="Ney-Bg-YxK">
+                            <items>
+                                <button width="60" height="60" alignment="center" backgroundImage="leao" id="Q9C-RF-X5H">
+                                    <connections>
+                                        <action selector="leao" destination="AgC-eL-Hgc" id="7Fu-Bw-n9A"/>
+                                    </connections>
+                                </button>
+                                <button width="60" height="60" alignment="center" backgroundImage="macaco" id="YgG-zf-Q2V">
+                                    <connections>
+                                        <action selector="macaco" destination="AgC-eL-Hgc" id="uLn-m3-tqk"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="RQ1-Aa-Xvi">
+                            <items>
+                                <button width="60" height="60" alignment="center" backgroundImage="ovelha" id="hZf-yV-2VB">
+                                    <connections>
+                                        <action selector="ovelha" destination="AgC-eL-Hgc" id="baB-tJ-cli"/>
+                                    </connections>
+                                </button>
+                                <button width="60" height="60" alignment="center" backgroundImage="vaca" id="8l2-40-cHS">
+                                    <connections>
+                                        <action selector="vaca" destination="AgC-eL-Hgc" id="fgl-wT-4nb"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <imageView alignment="left" image="direitos" id="yyU-gT-RoP"/>
+                    </items>
+                    <color key="backgroundColor" red="0.96203762289999994" green="0.91547626260000003" blue="0.72388201949999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
